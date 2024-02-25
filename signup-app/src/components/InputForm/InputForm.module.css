@@ -1,12 +1,15 @@
+
 .custominput{
     width: 100%;
     margin-bottom: 25px;
-    height: 40px;
+    height: 55px;
 }
 .container{
     padding-top: 25px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+
 }
 .label{
     margin: 0;
@@ -19,6 +22,8 @@
     width: 100%;
     size: 20px;
     margin-top: 16px;
+    height: 55px;
+    font-size: 23px;
 }
 .link{
     color: black;
@@ -26,4 +31,5 @@
 .linkcontainer{
     text-align: center;
     padding-top: 15px;
+    font-size: 22px;
 }

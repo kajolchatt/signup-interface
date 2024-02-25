@@ -1,12 +1,11 @@
-import Form from "react-bootstrap/Form";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "./InputForm.module.css";
+import Form from "react-bootstrap/Form";
 import { Link } from "react-router-dom";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import styles from "./InputForm.module.css"
 function InputForm() {
   return (
     <Container className={styles.container}>
