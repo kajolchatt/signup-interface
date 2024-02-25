@@ -1,0 +1,9 @@
+.customlist{
+    list-style-type: none;
+    padding: 0;
+}
+.customlist li{
+    position: relative;
+    color: rgb(167, 164, 164);
+    line-height: 53px;
+}

@@ -1,0 +1,19 @@
+.leftContainer{
+    box-sizing: border-box;
+    flex:1;
+    max-width: 50%;
+    width: 50%;
+    background: linear-gradient(to bottom, #312c2c 1%, black 100%);
+    max-height: 100vh;
+    height: 100vh;
+    color:white;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    padding-top: 185px;
+    padding-left: 150px;
+    padding-right:150px ;
+}
+.leftContainer h1{
+    font-weight: 630;
+}

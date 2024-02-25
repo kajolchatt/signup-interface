@@ -1,0 +1,8 @@
+.rightcontainer{
+    flex:1;
+    max-width: 50%;
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    max-height: 100vh;
+    height: 100vh;
+    
+}
