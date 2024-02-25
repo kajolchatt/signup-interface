@@ -9,7 +9,7 @@ function LeftComponent() {
   ];
   return (
     <div className={styles.leftContainer}>
-      <h1>Sign up to gain access to the Checkfor.ai dashboard</h1>
+      <h2>Sign up to gain access to the Checkfor.ai dashboard</h2>
       <ListPoint dataPoints={points}/>
     </div>
   );

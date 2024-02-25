@@ -7,13 +7,13 @@
     max-height: 100vh;
     height: 100vh;
     color:white;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
     padding-top: 185px;
     padding-left: 150px;
     padding-right:150px ;
+    
 }
-.leftContainer h1{
+.leftContainer h2{
     font-weight: 630;
+    line-height: 40px;
+    margin-bottom: 20px;
 }
