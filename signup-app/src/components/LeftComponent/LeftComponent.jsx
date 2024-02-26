@@ -10,31 +10,36 @@ function LeftComponent() {
     "Export results for bulk uploads.",
     "Access API key.",
   ];
+
   return (
-    <div className={styles.leftContainer}>
-      <div className={styles.heading}>Sign up to gain access to the Checkfor.ai dashboard</div>
-      <ul className={styles.customlist}>
-        {points.map((item, index) => (
-          <li key={index}>
-            <div className={styles.greenBg}>
-              <div className={styles.circle}>
-                <FontAwesomeIcon
-                  icon={faCheck}
-                  style={{
-                    color: "white",
-                    position: "absolute",
-                    top: "50%",
-                    left: "50%",
-                    transform: "translate(-50%, -50%)",
-                    fontSize: "0.9rem",
-                  }}
-                />
+    <div className={styles.mainContainer}>
+      <div>
+        <div className={styles.heading}>
+          Sign up to gain access to the Checkfor.ai dashboard
+        </div>
+        <ul className={styles.customlist}>
+          {points.map((item, index) => (
+            <li key={index}>
+              <div className={styles.greenBg}>
+                <div className={styles.circle}>
+                  <FontAwesomeIcon
+                    icon={faCheck}
+                    style={{
+                      color: "white",
+                      position: "absolute",
+                      top: "50%",
+                      left: "50%",
+                      transform: "translate(-50%, -50%)",
+                      fontSize: "0.9rem",
+                    }}
+                  />
+                </div>
               </div>
-            </div>
-            {item}
-          </li>
-        ))}
-      </ul>
+              {item}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
